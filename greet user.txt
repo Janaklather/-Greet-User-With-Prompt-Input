@@ -1,0 +1,10 @@
+const greetUser = function() {
+  const name = prompt("Please enter your name:");
+  if (name === null || name === "") {
+    console.log("Hello, Guest!");
+  } else {
+    console.log(Hello, ${name}!);
+  }
+};
+
+greetUser();
